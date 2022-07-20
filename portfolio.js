@@ -7,12 +7,15 @@ export const greetings = {
     `I'm a passionate Full Stack web developer with years of experience in both frontend and backend development.
     I majorly use PHP, Laravel, CodeIgniter, React and MySQL in my day-to-day coding session but I do have
     some experience in nodejs, expressjs and vuejs.`,
-    resumeLink:
-    "https://drive.google.com/file/d/1Jj4QvvMMhRZQrxngrvlhmuTLhgcisaAp/view?usp=sharing",
+    resumeLink: "https://drive.google.com/file/d/1-VNgf5Raa1-1660XdRrKReKIYm5Frnvm/view?usp=drivesdk"
+    
 };
 
+
+
+
 export const openSource = {
-    githubUserName: "1hanzla100",
+    githubUserName: "mustaphatg",
 };
 
 export const contact = {};
@@ -236,17 +239,16 @@ export const educationInfo = [{
 
 export const experience = [
     {
-        role: "Backend Developer",
+        role: "Full Stack Developer",
         company: "Dropflo inc.",
         companylogo: "/img/icons//dropflo.png",
-        date: "Ang 29, 2021 – Nov 24 2021",
-        desc : "I worked as a backend developer on Dropflo's CRM's. Dropflo is a customer relationship management web app that enables customers to build their business, keep track of marketing efforts, monitor their brand and also helps them in generating more leads. While at Dropflo, I built highly optimized API that powers some core functionalities on the CRM."         
+        date: "Aug.  2021 – Nov. 2021",
+        desc : "I worked as a backend developer on Dropflo's CRM's. Dropflo is a customer relationship management web app that enables customers to build their business, keep track of marketing efforts, monitor their brand and also helps them in generating more leads. While at Dropflo, I built highly optimized API that powers some core functionalities on the CRM."    ,     
        
-         /* descBullets: [
+         descBullets: [
+             "Designed and establish user-friendly website including an optimized checkout page.",
              "Integrated a payment gateway into one of Dropflo's SAAS platform."
-         	//"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
-        // 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-         ], */
+         ]
     }
 ];
 
