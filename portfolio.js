@@ -234,17 +234,20 @@ export const educationInfo = [{
 },
 ];
 
-export const experience = [{
+export const experience = 
+{
     role: "Backend Developer",
     company: "Dropflo inc.",
-    companylogo: "/img/icons/common/dusecaSoftware.jpg",
+    companylogo: "/img/icons//dropflo.png",
     date: "Ang 29, 2021 – Nov 24 2021",
-    desc: "I worked as API Engineer on a Kale App. Kale is a community platform for the creation of social reviews based on verified transactions. I built Fully Optimized and High Performance RESTful APIs using Django, DjangoRESTFramework, PostgresSQL, JWT Authentication, AWS, Integrated Plaid APIs for Fetching Bank Transactions, Integrated Sentry for monitoring Django Server and deployed the API on Heroku Server.",
-    // descBullets: [
-    // 	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
+    desc : "I worked as a backend developer on Dropflo's CRM's. Dropflo is a customer relationship management web app that enables customers to build their business, keep track of marketing efforts, monitor their brand and also helps them in generating more leads. While at Dropflo, I built highly optimized API that powers some core functionalities on the CRM."         
+   
+     /* descBullets: [
+         "Integrated a payment gateway into one of Dropflo's SAAS platform."
+     	//"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
     // 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    // ],
-},
+     ], */
+}
     /*	{
 		role: "Full Stack Developer",
 		company: "Bleed-AI",
@@ -260,6 +263,8 @@ export const experience = [{
 		desc: "Worked as a Django Developer to integrate Stripe payment gateway in wapidu.com and Created REST APIs using Django REST Framework to integrate Django Stripe backend to Vue.js Frontend and Deployed it on Azure based Docker container registry.",
 	}, */
 ];
+
+
 
 export const projects = [{
     name: "Vidd Call",

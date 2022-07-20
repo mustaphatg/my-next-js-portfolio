@@ -23,7 +23,7 @@ const ExperienceCard = ({ data }) => {
 						<img
 							src={data.companylogo}
 							style={{
-								objectFit: "cover",
+								objectFit: "contain",
 								left: 0,
 								right: 0,
 								top: "7rem",
@@ -32,6 +32,7 @@ const ExperienceCard = ({ data }) => {
 								width: "8rem",
 								height: "8rem",
 								borderRadius: "50%",
+								backgroundColor : "#0D47A1"
 							}}
 							className="shadow mb-3"
 							alt={data.companylogo}
