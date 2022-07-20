@@ -1,93 +1,92 @@
 import emoji from "react-easy-emoji";
 
 export const greetings = {
-	name: "Ibrahim Mustapha",
-	title: "Hi all, I'm Mustapha",
-	description:
-		`I'm a passionate Full Stack web developer with years of experience in both frontend and backend development. 
-		I majorly use PHP, Laravel, CodeIgniter, React and MySQL in my day-to-day coding session but I do have
-		some experience in nodejs, expressjs and vuejs.`,
-	resumeLink:
-		"https://drive.google.com/file/d/1Jj4QvvMMhRZQrxngrvlhmuTLhgcisaAp/view?usp=sharing",
+    name: "Ibrahim Mustapha",
+    title: "Hi all, I'm Mustapha",
+    description:
+    `I'm a passionate Full Stack web developer with years of experience in both frontend and backend development.
+    I majorly use PHP, Laravel, CodeIgniter, React and MySQL in my day-to-day coding session but I do have
+    some experience in nodejs, expressjs and vuejs.`,
+    resumeLink:
+    "https://drive.google.com/file/d/1Jj4QvvMMhRZQrxngrvlhmuTLhgcisaAp/view?usp=sharing",
 };
 
 export const openSource = {
-	githubUserName: "1hanzla100",
+    githubUserName: "1hanzla100",
 };
 
 export const contact = {};
 
 export const socialLinks = {
-	/* instagram: "https://www.instagram.com/1hanzla100", 
+    /* instagram: "https://www.instagram.com/1hanzla100",
 	twitter: "https://twitter.com/Mustapha_Tg?t=NR-bIKgjK9oCdOX1_U4qoA&s=09", */
-	github: "https://github.com/mustaphatg",
-	linkedin: "https://www.linkedin.com/in/mustaphatg/",
-	facebook: "https://www.facebook.com/profile.php?id=100055541510379"
+    github: "https://github.com/mustaphatg",
+    linkedin: "https://www.linkedin.com/in/mustaphatg/",
+    facebook: "https://www.facebook.com/profile.php?id=100055541510379"
 
 };
 
 export const skillsSection = {
-	title: "What I do",
-	subTitle:
-		"PASSIONATE FULL STACK DEVELOPER WHO CONSTANTLY LEARN SO AS TO BE RELEVANT",
-	data: [
-		{
-			title: "Full Stack Development",
-			lottieAnimationFile: "/lottie/skills/fullstack.json", // Path of Lottie Animaion JSON File
-			skills: [
-				emoji(
-					"⚡ Building responsive Single-Page-Apps (SPA)  in Reactjs"
-				),
-				emoji("⚡ Building responsive dynnamic ebsites using  PHP and Laravel  "),
-				emoji(
-					"⚡ Building RESTful APIs in  CodeIgniter & Laravel REST Framework"
-				),
-			],
-			softwareSkills: [
-				{
-					skillName: "HTML-5",
-					fontAwesomeClassname: "vscode-icons:file-type-html",
-				},
-				{
-					skillName: "CSS-3",
-					fontAwesomeClassname: "vscode-icons:file-type-css",
-				},
-				{
-					skillName: "JavaScript",
-					fontAwesomeClassname: "logos:javascript",
-				},
-				{
-					skillName: "Reactjs",
-					fontAwesomeClassname: "vscode-icons:file-type-reactjs",
-				},
-				{
-					skillName: "Laravel",
-					fontAwesomeClassname: "simple-icons:laravel",
-				},
-				{
-					skillName: "CodeIgniter",
-					fontAwesomeClassname: "logos:codeigniter-icon",
-				},
-				{
-					skillName: "MySQL",
-					fontAwesomeClassname: "logos:mysql",
-				},
+    title: "What I do",
+    subTitle:
+    "PASSIONATE FULL STACK DEVELOPER WHO CONSTANTLY LEARN SO AS TO BE RELEVANT",
+    data: [{
+        title: "Full Stack Development",
+        lottieAnimationFile: "/lottie/skills/fullstack.json",
+        // Path of Lottie Animaion JSON File
+        skills: [
+            emoji(
+                "⚡ Building responsive Single-Page-Apps (SPA)  in Reactjs"
+            ),
+            emoji("⚡ Building responsive dynnamic ebsites using  PHP and Laravel  "),
+            emoji(
+                "⚡ Building RESTful APIs in  CodeIgniter & Laravel REST Framework"
+            ),
+        ],
+        softwareSkills: [{
+            skillName: "HTML-5",
+            fontAwesomeClassname: "vscode-icons:file-type-html",
+        },
+            {
+                skillName: "CSS-3",
+                fontAwesomeClassname: "vscode-icons:file-type-css",
+            },
+            {
+                skillName: "JavaScript",
+                fontAwesomeClassname: "logos:javascript",
+            },
+            {
+                skillName: "Reactjs",
+                fontAwesomeClassname: "vscode-icons:file-type-reactjs",
+            },
+            {
+                skillName: "Laravel",
+                fontAwesomeClassname: "simple-icons:laravel",
+            },
+            {
+                skillName: "CodeIgniter",
+                fontAwesomeClassname: "logos:codeigniter-icon",
+            },
+            {
+                skillName: "MySQL",
+                fontAwesomeClassname: "logos:mysql",
+            },
 
-				{
-					skillName: "Redux",
-					fontAwesomeClassname: "logos:redux",
-				},
-				{
-					skillName: "NPM",
-					fontAwesomeClassname: "logos:npm-icon",
-				},
-				{
-					skillName: "Yarn",
-					fontAwesomeClassname: "logos:yarn",
-				},
-			],
-		},
-		/*{
+            {
+                skillName: "Redux",
+                fontAwesomeClassname: "logos:redux",
+            },
+            {
+                skillName: "NPM",
+                fontAwesomeClassname: "logos:npm-icon",
+            },
+            {
+                skillName: "Yarn",
+                fontAwesomeClassname: "logos:yarn",
+            },
+        ],
+    },
+        /*{
 			title: "Cloud Infra-Architecture",
 			lottieAnimationFile: "/lottie/skills/cloudinfra.json", // Path of Lottie Animation JSON File
 			skills: [
@@ -186,50 +185,67 @@ export const skillsSection = {
 				},
 			],
 		},*/
-	],
+    ],
 };
 
-export const SkillBars = [
-	{
-		Stack: "Frontend/Design", //Insert stack or technology you have experience in
-		progressPercentage: "90", //Insert relative proficiency in percentage
-	},
-	{
-		Stack: "Backend",
-		progressPercentage: "70",
-	},
-	{
-		Stack: "Programming",
-		progressPercentage: "60",
-	},
+export const SkillBars = [{
+    Stack: "HML",
+    //Insert stack or technology you have experience in
+    progressPercentage: "75",
+    //Insert relative proficiency in percentage
+},
+    {
+        Stack: "CSS",
+        //Insert stack or technology you have experience in
+        progressPercentage: "75",
+        //Insert relative proficiency in percentage
+    },
+    {
+        Stack: "JavaScript",
+        //Insert stack or technology you have experience in
+        progressPercentage: "70",
+        //Insert relative proficiency in percentage
+    },
+    {
+        Stack: "PHP",
+        //Insert stack or technology you have experience in
+        progressPercentage: "80",
+        //Insert relative proficiency in percentage
+    },
+    {
+        Stack: "Laravel",
+        progressPercentage: "80",
+    },
+    {
+        Stack: "MySQL",
+        progressPercentage: "70",
+    },
 ];
 
-export const educationInfo = [
-	{
-		schoolName: "Osun State College of Technology ,  Esa - Oke",
-		subHeader: "National Diploma  in Urban and Regional Planning",
-		duration: "September 2017 - April 2019",
-		desc: "Studied how urban cities are being planned and developed",
-		descBullets: [
-			//"Lorem ipsum dolor sit amet, consectetur adipdfgiscing elit",
-			//"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-		],
-	},
+export const educationInfo = [{
+    schoolName: "Osun State College of Technology ,  Esa - Oke",
+    subHeader: "National Diploma  in Urban and Regional Planning",
+    duration: "September 2017 - April 2019",
+    desc: "Studied how urban cities are being planned and developed",
+    descBullets: [
+        //"Lorem ipsum dolor sit amet, consectetur adipdfgiscing elit",
+        //"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    ],
+},
 ];
 
-export const experience = [
-	{
-		role: "API Engineer",
-		company: "Duseca Software",
-		companylogo: "/img/icons/common/dusecaSoftware.jpg",
-		date: "Jan 2022 – Mar 2022",
-		desc: "I worked as API Engineer on a Kale App. Kale is a community platform for the creation of social reviews based on verified transactions. I built Fully Optimized and High Performance RESTful APIs using Django, DjangoRESTFramework, PostgresSQL, JWT Authentication, AWS, Integrated Plaid APIs for Fetching Bank Transactions, Integrated Sentry for monitoring Django Server and deployed the API on Heroku Server.",
-		// descBullets: [
-		// 	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
-		// 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-		// ],
-	},
-/*	{
+export const experience = [{
+    role: "Backend Developer",
+    company: "Dropflo inc.",
+    companylogo: "/img/icons/common/dusecaSoftware.jpg",
+    date: "Ang 29, 2021 – Nov 24 2021",
+    desc: "I worked as API Engineer on a Kale App. Kale is a community platform for the creation of social reviews based on verified transactions. I built Fully Optimized and High Performance RESTful APIs using Django, DjangoRESTFramework, PostgresSQL, JWT Authentication, AWS, Integrated Plaid APIs for Fetching Bank Transactions, Integrated Sentry for monitoring Django Server and deployed the API on Heroku Server.",
+    // descBullets: [
+    // 	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
+    // 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    // ],
+},
+    /*	{
 		role: "Full Stack Developer",
 		company: "Bleed-AI",
 		companylogo: "/img/icons/common/bleedAI.jpg",
@@ -245,34 +261,30 @@ export const experience = [
 	}, */
 ];
 
-export const projects = [
-	{
-		name: "Vidd Call",
-		desc : "A Video Call Web Application That Does Not Require You to Register Before You Can Connect To Your Loved Ones. Created With Laravel And WebRTC.",
-		//desc: "With Atlas Mart, it’s easy to find the products with the best price and ship them straight to your door.",
-		link: "https://vidd-call.herokuapp.com/",
-	},
-	{
-		name: "Nairaland 2.0 ",
-		desc: "A Reactjs Web Application That Utilizes Scraping to Display the Content of a Web Forum (https://nairaland.com) in a nice and intrusive UI. PHP/Laravel was used in Scraping the Content and also in developing the API while React and Materialize was used for the Frontend. ",
-		link: "https://nairaland-v2.netlify.app/",
-	},
-	{
-		name: "Shopaza (Ecommerce)",
-		desc: "Now your reach to all your favorite entertainment and luxury items is just one touch apart",
-		link: "https://shopaza.herokuapp.com/",
-	}
+export const projects = [{
+    name: "Vidd Call",
+    desc: "A Video Call Web Application That Does Not Require You to Register Before You Can Connect To Your Loved Ones. Created With Laravel And WebRTC.",
+    //desc: "With Atlas Mart, it’s easy to find the products with the best price and ship them straight to your door.",
+    link: "https://vidd-call.herokuapp.com/",
+},
+    {
+        name: "Nairaland 2.0 ",
+        desc: "A Reactjs Web Application That Utilizes Scraping to Display the Content of a Web Forum (https://nairaland.com) in a nice and intrusive UI. PHP/Laravel was used in Scraping the Content and also in developing the API while React and Materialize was used for the Frontend. ",
+        link: "https://nairaland-v2.netlify.app/",
+    },
+    /* {
+        name: "Shopaza (Ecommerce)",
+        desc: "Now your reach to all your favorite entertainment and luxury items is just one touch apart",
+        link: "https://shopaza.herokuapp.com/",
+    } */
 ];
 
-export const feedbacks = [
-	{
-		name: "John Smith",
-		feedback:
-			"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.",
-	},
-	{
-		name: "John Smith",
-		feedback:
-			"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.",
-	},
-];
+export const feedbacks = [{
+    name: "Shan-Marie Osbourne",
+    feedback:
+    `His work is excellent. He does a wonderful job and is very knowledgeable about code.
+    He has successfully been able to customize my software to fits exactly what I wanted. When I have a problem, he has always found a solution.
+    I beyond recommend him. He is very talented. (https://www.upwork.com/freelancers/~01ff0950e3820f322a) `
+
+
+}];
