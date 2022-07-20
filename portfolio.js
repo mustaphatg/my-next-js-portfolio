@@ -234,34 +234,20 @@ export const educationInfo = [{
 },
 ];
 
-export const experience = 
-{
-    role: "Backend Developer",
-    company: "Dropflo inc.",
-    companylogo: "/img/icons//dropflo.png",
-    date: "Ang 29, 2021 – Nov 24 2021",
-    desc : "I worked as a backend developer on Dropflo's CRM's. Dropflo is a customer relationship management web app that enables customers to build their business, keep track of marketing efforts, monitor their brand and also helps them in generating more leads. While at Dropflo, I built highly optimized API that powers some core functionalities on the CRM."         
-   
-     /* descBullets: [
-         "Integrated a payment gateway into one of Dropflo's SAAS platform."
-     	//"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
-    // 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-     ], */
-}
-    /*	{
-		role: "Full Stack Developer",
-		company: "Bleed-AI",
-		companylogo: "/img/icons/common/bleedAI.jpg",
-		date: "Sept 2021 - Oct 2021",
-		desc: "Worked as django web developer to create a website in which I integrated computer vision AI model (built by the team of BleedAI) to process YouTube URLs and show Real Time processing on Website using Django Channels WebSockets , threading for running multiple instances of AI Model, jQuery for UI rendering and deployed it on Heroku server.",
-	},
-	{
-		role: "Backend Developer",
-		company: "Wapidu",
-		companylogo: "/img/icons/common/wapidu.jpg",
-		date: "Sept 2021",
-		desc: "Worked as a Django Developer to integrate Stripe payment gateway in wapidu.com and Created REST APIs using Django REST Framework to integrate Django Stripe backend to Vue.js Frontend and Deployed it on Azure based Docker container registry.",
-	}, */
+export const experience = [
+    {
+        role: "Backend Developer",
+        company: "Dropflo inc.",
+        companylogo: "/img/icons//dropflo.png",
+        date: "Ang 29, 2021 – Nov 24 2021",
+        desc : "I worked as a backend developer on Dropflo's CRM's. Dropflo is a customer relationship management web app that enables customers to build their business, keep track of marketing efforts, monitor their brand and also helps them in generating more leads. While at Dropflo, I built highly optimized API that powers some core functionalities on the CRM."         
+       
+         /* descBullets: [
+             "Integrated a payment gateway into one of Dropflo's SAAS platform."
+         	//"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
+        // 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+         ], */
+    }
 ];
 
 
